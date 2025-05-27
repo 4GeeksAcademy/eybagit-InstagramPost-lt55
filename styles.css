@@ -71,13 +71,14 @@ body {
  
 .nombre-usuario {
     font-size: 12px;  
-    color: #8e8e8e;  
+    color: black;  
 }
 
  
 .icono-menu {
-    font-size: 20px;  
-    color: #262626;  
+    font-size: 30px;  
+   /* color: #262626;*/
+   color: black;  
     cursor: pointer;  
 }
  
@@ -108,8 +109,9 @@ body {
 
  
 .icono-accion {
-    font-size: 24px;  
-    color: #262626;  
+    font-size: 28px;  
+   /* color: #262626; */ 
+   color: black;
     cursor: pointer;  
     transition: transform 0.2s ease;  
 }
