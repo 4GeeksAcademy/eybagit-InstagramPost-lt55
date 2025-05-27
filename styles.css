@@ -1,0 +1,168 @@
+
+* {
+    margin: 0; 
+    padding: 0;  
+    box-sizing: border-box; 
+    
+}
+    
+
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #fafafa; 
+    color: #262626; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    padding: 20px; 
+    background-color: black;
+}
+
+ 
+.contenedor-publicacion {
+    background-color: #ffffff; 
+    /*border: 1px solid #dbdbdb; */
+    width: 100%; 
+    max-width: 480px; 
+    /*border-radius: 8px; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;  
+    display: flex; 
+    flex-direction: column;  
+}
+
+ 
+.encabezado-publicacion {
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 12px 16px;  
+    border-bottom: 1px solid #dbdbdb;  
+}
+
+ 
+.encabezado-izquierda {
+    display: flex;  
+    align-items: center; 
+    gap: 12px;  
+}
+
+ 
+.icono-html5 {
+    font-size: 36px;  
+    color: #000000;  
+}
+
+ 
+.info-usuario {
+    display: flex;  
+    flex-direction: column;  
+    line-height: 1.3;  
+}
+
+ 
+.nombre-etiqueta {
+    font-weight: 700;  
+    font-size: 14px;  
+}
+
+ 
+.nombre-usuario {
+    font-size: 12px;  
+    color: #8e8e8e;  
+}
+
+ 
+.icono-menu {
+    font-size: 20px;  
+    color: #262626;  
+    cursor: pointer;  
+}
+ 
+
+.imagen-publicacion img {
+    width: 100%;  
+    height: auto;  
+    display: block;  
+}
+
+
+.interaccion-publicacion {
+    padding: 0 16px;  
+}
+
+ 
+.acciones-publicacion {
+    display: flex;  
+    justify-content: space-between;  
+    padding: 12px 0;  
+}
+
+ 
+.acciones-izquierda {
+    display: flex;  
+    gap: 16px;  
+}
+
+ 
+.icono-accion {
+    font-size: 24px;  
+    color: #262626;  
+    cursor: pointer;  
+    transition: transform 0.2s ease;  
+}
+
+ 
+.icono-accion:hover {
+    transform: scale(1.1);  
+}
+
+ 
+.me-gusta-publicacion {
+    padding-bottom: 8px;  
+    font-size: 14px;  
+}
+
+ 
+.me-gusta-publicacion p {
+    color: #262626;  
+}
+
+ 
+.me-gusta-publicacion strong {
+    font-weight: 700;  
+}
+
+ 
+.descripcion-publicacion {
+    padding: 0 16px 16px;  
+    font-size: 14px;  
+    line-height: 1.5;  
+    color: #262626;  
+}
+
+ 
+.descripcion-publicacion p {
+    margin: 0;  
+}
+
+ 
+@media (max-width: 480px) {
+    body {
+        padding: 0;  
+        background-color: #ffffff;  
+    }
+
+    .contenedor-publicacion {
+        border: none;  
+        border-radius: 0;  
+        box-shadow: none;  
+        min-height: 100vh;  
+    }
+
+    .encabezado-publicacion {
+        border-radius: 0;  
+    }
+}
